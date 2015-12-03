@@ -13,12 +13,12 @@
 		E24A14F21C10BD9800233060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24A14F11C10BD9800233060 /* Assets.xcassets */; };
 		E24A14F51C10BD9800233060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24A14F31C10BD9800233060 /* LaunchScreen.storyboard */; };
 		E24A14FA1C10BD9800233060 /* Watch-ShoeSizeConverterDemoApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E24A14F91C10BD9800233060 /* Watch-ShoeSizeConverterDemoApp WatchKit App.app */; };
-		E24A15001C10BD9800233060 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24A14FE1C10BD9800233060 /* Interface.storyboard */; };
 		E24A15021C10BD9800233060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24A15011C10BD9800233060 /* Assets.xcassets */; };
 		E24A15091C10BD9800233060 /* Watch-ShoeSizeConverterDemoApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E24A15081C10BD9800233060 /* Watch-ShoeSizeConverterDemoApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		E24A150E1C10BD9800233060 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24A150D1C10BD9800233060 /* InterfaceController.swift */; };
 		E24A15101C10BD9800233060 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24A150F1C10BD9800233060 /* ExtensionDelegate.swift */; };
 		E24A15121C10BD9800233060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24A15111C10BD9800233060 /* Assets.xcassets */; };
+		E24A15221C10C19E00233060 /* MensInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24A15211C10C19E00233060 /* MensInterfaceController.swift */; };
+		E24A15241C10C2E000233060 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24A15231C10C2E000233060 /* Interface.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,14 +72,14 @@
 		E24A14F41C10BD9800233060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E24A14F61C10BD9800233060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E24A14F91C10BD9800233060 /* Watch-ShoeSizeConverterDemoApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch-ShoeSizeConverterDemoApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E24A14FF1C10BD9800233060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		E24A15011C10BD9800233060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24A15031C10BD9800233060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E24A15081C10BD9800233060 /* Watch-ShoeSizeConverterDemoApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch-ShoeSizeConverterDemoApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E24A150D1C10BD9800233060 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		E24A150F1C10BD9800233060 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		E24A15111C10BD9800233060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24A15131C10BD9800233060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24A15211C10C19E00233060 /* MensInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MensInterfaceController.swift; path = ../MensInterfaceController.swift; sourceTree = "<group>"; };
+		E24A15231C10C2E000233060 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +136,7 @@
 		E24A14FD1C10BD9800233060 /* Watch-ShoeSizeConverterDemoApp WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				E24A14FE1C10BD9800233060 /* Interface.storyboard */,
+				E24A15231C10C2E000233060 /* Interface.storyboard */,
 				E24A15011C10BD9800233060 /* Assets.xcassets */,
 				E24A15031C10BD9800233060 /* Info.plist */,
 			);
@@ -146,7 +146,7 @@
 		E24A150C1C10BD9800233060 /* Watch-ShoeSizeConverterDemoApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				E24A150D1C10BD9800233060 /* InterfaceController.swift */,
+				E24A15211C10C19E00233060 /* MensInterfaceController.swift */,
 				E24A150F1C10BD9800233060 /* ExtensionDelegate.swift */,
 				E24A15111C10BD9800233060 /* Assets.xcassets */,
 				E24A15131C10BD9800233060 /* Info.plist */,
@@ -266,8 +266,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24A15241C10C2E000233060 /* Interface.storyboard in Resources */,
 				E24A15021C10BD9800233060 /* Assets.xcassets in Resources */,
-				E24A15001C10BD9800233060 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24A15221C10C19E00233060 /* MensInterfaceController.swift in Sources */,
 				E24A14ED1C10BD9800233060 /* ViewController.swift in Sources */,
 				E24A14EB1C10BD9800233060 /* AppDelegate.swift in Sources */,
 			);
@@ -296,7 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E24A15101C10BD9800233060 /* ExtensionDelegate.swift in Sources */,
-				E24A150E1C10BD9800233060 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,14 +330,6 @@
 				E24A14F41C10BD9800233060 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		E24A14FE1C10BD9800233060 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E24A14FF1C10BD9800233060 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

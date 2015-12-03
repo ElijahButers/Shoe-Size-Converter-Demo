@@ -1,6 +1,6 @@
 //
-//  InterfaceController.swift
-//  Watch-ShoeSizeConverterDemoApp WatchKit Extension
+//  MensInterfaceController.swift
+//  Watch-ShoeSizeConverterDemoApp
 //
 //  Created by User on 12/3/15.
 //  Copyright © 2015 Elijah Buters. All rights reserved.
@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
+class MensInterfaceController: WKInterfaceController {
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
