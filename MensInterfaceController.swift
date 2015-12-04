@@ -11,6 +11,11 @@ import Foundation
 
 
 class MensInterfaceController: WKInterfaceController {
+    
+    // Outlets
+    @IBOutlet var sizeLabel: WKInterfaceLabel!
+    @IBOutlet var resultLabel: WKInterfaceLabel!
+    
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -28,4 +33,15 @@ class MensInterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    // Actions
+    @IBAction func minusTapped() {
+    }
+    
+    @IBAction func plusTapped() {
+    }
+    
+    @IBAction func convertTapped() {
+    }
+    
+    
 }
