@@ -16,6 +16,8 @@ class MensInterfaceController: WKInterfaceController {
     @IBOutlet var sizeLabel: WKInterfaceLabel!
     @IBOutlet var resultLabel: WKInterfaceLabel!
     
+    var size = 0
+    
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -35,12 +37,26 @@ class MensInterfaceController: WKInterfaceController {
 
     // Actions
     @IBAction func minusTapped() {
+        
+        if size == 0 {
+            print("Minimum Value")
+        } else {
+            size -= 1
+            self.sizeLabel.setText("\(size)")
+            self.resultLabel.setHidden(true)
+        }
     }
     
     @IBAction func plusTapped() {
+        size += 1
+        self.sizeLabel.setText("\(size)")
+        self.resultLabel.setHidden(true)
     }
     
     @IBAction func convertTapped() {
+        
+        self.resultLabel.setText("\(size + 30) in European Shoe Size")
+        self.resultLabel.setHidden(false)
     }
     
     
