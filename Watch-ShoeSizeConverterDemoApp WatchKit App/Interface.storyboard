@@ -49,10 +49,56 @@
                     <connections>
                         <outlet property="resultLabel" destination="XXB-zR-GdQ" id="8ih-2K-OQ9"/>
                         <outlet property="sizeLabel" destination="fzg-4N-5yS" id="JHq-cS-YTY"/>
+                        <segue destination="BYl-TG-2jj" kind="relationship" relationship="nextPage" id="kvb-uK-qHi"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="563" y="467"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="WX6-oA-Agk">
+            <objects>
+                <controller id="BYl-TG-2jj">
+                    <items>
+                        <label width="136" alignment="center" text="Women's US Size " textAlignment="center" id="AIO-le-d0r"/>
+                        <label alignment="center" text="0" textAlignment="center" id="vc9-Hg-bve">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                        <group width="1" alignment="left" id="9OU-vX-jag">
+                            <items>
+                                <button width="40" height="30" alignment="left" title="-" id="3sl-Is-v6p">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="0.5450980392" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="18"/>
+                                    <connections>
+                                        <action selector="minusTapped" destination="AgC-eL-Hgc" id="0iY-dc-lce"/>
+                                    </connections>
+                                </button>
+                                <button width="40" height="30" alignment="right" title="+" id="YV4-ZI-RpZ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="0.5450980392" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="18"/>
+                                    <connections>
+                                        <action selector="plusTapped" destination="AgC-eL-Hgc" id="B3g-c8-b75"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="136" alignment="left" text="0 in European Shoe size" textAlignment="center" id="7pG-1Y-4gC">
+                            <fontDescription key="font" type="system" pointSize="10"/>
+                        </label>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="Convert" id="A4H-WR-Utn">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="1" green="0.5450980392" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="20"/>
+                            <connections>
+                                <action selector="convertTapped" destination="AgC-eL-Hgc" id="1Mc-dN-FZ0"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="831" y="467"/>
         </scene>
     </scenes>
 </document>
