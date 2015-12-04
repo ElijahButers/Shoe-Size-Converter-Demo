@@ -19,6 +19,7 @@
 		E24A15121C10BD9800233060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24A15111C10BD9800233060 /* Assets.xcassets */; };
 		E24A15241C10C2E000233060 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24A15231C10C2E000233060 /* Interface.storyboard */; };
 		E2EB68421C119BF0003D9371 /* MensInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24A15211C10C19E00233060 /* MensInterfaceController.swift */; };
+		E2EB68441C11BFDC003D9371 /* WomensInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EB68431C11BFDC003D9371 /* WomensInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		E24A15131C10BD9800233060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E24A15211C10C19E00233060 /* MensInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MensInterfaceController.swift; path = ../MensInterfaceController.swift; sourceTree = "<group>"; };
 		E24A15231C10C2E000233060 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		E2EB68431C11BFDC003D9371 /* WomensInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WomensInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		E24A150C1C10BD9800233060 /* Watch-ShoeSizeConverterDemoApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E2EB68431C11BFDC003D9371 /* WomensInterfaceController.swift */,
 				E24A15211C10C19E00233060 /* MensInterfaceController.swift */,
 				E24A150F1C10BD9800233060 /* ExtensionDelegate.swift */,
 				E24A15111C10BD9800233060 /* Assets.xcassets */,
@@ -297,6 +300,7 @@
 			files = (
 				E2EB68421C119BF0003D9371 /* MensInterfaceController.swift in Sources */,
 				E24A15101C10BD9800233060 /* ExtensionDelegate.swift in Sources */,
+				E2EB68441C11BFDC003D9371 /* WomensInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

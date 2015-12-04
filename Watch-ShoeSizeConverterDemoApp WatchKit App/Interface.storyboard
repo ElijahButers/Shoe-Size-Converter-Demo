@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="563" y="467"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Womens Interface Controller-->
         <scene sceneID="WX6-oA-Agk">
             <objects>
-                <controller id="BYl-TG-2jj">
+                <controller id="BYl-TG-2jj" customClass="WomensInterfaceController" customModule="Watch_ShoeSizeConverterDemoApp_WatchKit_Extension">
                     <items>
                         <label width="136" alignment="center" text="Women's US Size " textAlignment="center" id="AIO-le-d0r"/>
                         <label alignment="center" text="0" textAlignment="center" id="vc9-Hg-bve">
@@ -71,7 +71,7 @@
                                     <color key="backgroundColor" red="1" green="0.5450980392" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" type="system" pointSize="18"/>
                                     <connections>
-                                        <action selector="minusTapped" destination="AgC-eL-Hgc" id="0iY-dc-lce"/>
+                                        <action selector="minusTapped" destination="BYl-TG-2jj" id="ziq-zP-cVW"/>
                                     </connections>
                                 </button>
                                 <button width="40" height="30" alignment="right" title="+" id="YV4-ZI-RpZ">
@@ -79,7 +79,7 @@
                                     <color key="backgroundColor" red="1" green="0.5450980392" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" type="system" pointSize="18"/>
                                     <connections>
-                                        <action selector="plusTapped" destination="AgC-eL-Hgc" id="B3g-c8-b75"/>
+                                        <action selector="plusTapped" destination="BYl-TG-2jj" id="IPb-rG-ytt"/>
                                     </connections>
                                 </button>
                             </items>
@@ -92,10 +92,14 @@
                             <color key="backgroundColor" red="1" green="0.5450980392" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="font" type="system" pointSize="20"/>
                             <connections>
-                                <action selector="convertTapped" destination="AgC-eL-Hgc" id="1Mc-dN-FZ0"/>
+                                <action selector="convertTapped" destination="BYl-TG-2jj" id="WQ2-QD-b3H"/>
                             </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="resultLabel" destination="7pG-1Y-4gC" id="UIf-O5-fjk"/>
+                        <outlet property="sizeLabel" destination="vc9-Hg-bve" id="bDR-pr-xKu"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="831" y="467"/>
