@@ -8,9 +8,34 @@
         <!--Mens Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="MensInterfaceController" customModule="Watch_ShoeSizeConverterDemoApp">
+                <controller id="AgC-eL-Hgc" customClass="MensInterfaceController" customModule="Watch_ShoeSizeConverterDemoApp_WatchKit_Extension">
                     <items>
-                        <label width="136" alignment="left" text="Hello Watch" textAlignment="center" id="36L-5I-ktk"/>
+                        <label width="136" alignment="center" text="Men's US Size " textAlignment="center" id="bpL-MQ-jD3"/>
+                        <label alignment="center" text="0" textAlignment="center" id="fzg-4N-5yS">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                        <group width="1" alignment="left" id="4Rb-Yu-9FO">
+                            <items>
+                                <button width="40" height="30" alignment="left" title="-" id="1ZS-WM-GiU">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="18"/>
+                                </button>
+                                <button width="40" height="30" alignment="right" title="+" id="X4V-Er-qit">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="18"/>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="136" alignment="left" text="0 in European Shoe size" textAlignment="center" id="XXB-zR-GdQ">
+                            <fontDescription key="font" type="system" pointSize="10"/>
+                        </label>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="Convert" id="bFG-7p-vtl">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="20"/>
+                        </button>
                     </items>
                 </controller>
             </objects>
